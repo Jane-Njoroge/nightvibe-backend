@@ -8,6 +8,8 @@ import { DjsModule } from './djs/djs.module';
 import { EventsModule } from './events/events.module';
 import {BookingsModule} from './bookings/bookings.module'
 import { PaymentsModule } from './payments/payments.module';
+import { MediaModule } from './media/media.module';
+import { NotificationsModule } from './notifications/notifications.module';
 
 
 @Module({
@@ -21,6 +23,8 @@ import { PaymentsModule } from './payments/payments.module';
     EventsModule,
     BookingsModule,
     PaymentsModule,
+    MediaModule,
+    NotificationsModule,
   ],
 })
 export class AppModule {}

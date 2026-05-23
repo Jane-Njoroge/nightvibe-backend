@@ -17,6 +17,8 @@ const djs_module_1 = require("./djs/djs.module");
 const events_module_1 = require("./events/events.module");
 const bookings_module_1 = require("./bookings/bookings.module");
 const payments_module_1 = require("./payments/payments.module");
+const media_module_1 = require("./media/media.module");
+const notifications_module_1 = require("./notifications/notifications.module");
 let AppModule = class AppModule {
 };
 exports.AppModule = AppModule;
@@ -32,6 +34,8 @@ exports.AppModule = AppModule = __decorate([
             events_module_1.EventsModule,
             bookings_module_1.BookingsModule,
             payments_module_1.PaymentsModule,
+            media_module_1.MediaModule,
+            notifications_module_1.NotificationsModule,
         ],
     })
 ], AppModule);
