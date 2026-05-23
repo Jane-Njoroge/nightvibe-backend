@@ -1,0 +1,18 @@
+import * as Prisma from './internal/prismaNamespaceBrowser.js';
+export { Prisma };
+export * as $Enums from './enums.js';
+export * from './enums.js';
+export type audit_logs = Prisma.audit_logsModel;
+export type booking_tables = Prisma.booking_tablesModel;
+export type bookings = Prisma.bookingsModel;
+export type club_tables = Prisma.club_tablesModel;
+export type djs = Prisma.djsModel;
+export type event_lineups = Prisma.event_lineupsModel;
+export type events = Prisma.eventsModel;
+export type media = Prisma.mediaModel;
+export type notifications = Prisma.notificationsModel;
+export type payments = Prisma.paymentsModel;
+export type promotions = Prisma.promotionsModel;
+export type tickets = Prisma.ticketsModel;
+export type users = Prisma.usersModel;
+export type venues = Prisma.venuesModel;
